@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+header {
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.underline {
+    height: 2px;
+    width: 100px;
+    background-color: orangered;
+    margin-bottom: 10px;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.reviews img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.reviews h1 {
+    text-transform: capitalize;
+    font-weight: 200;
+    color: white;
+}
+
+.reviews p {
+    width: 60%;
+    margin-top: 5px;
+    font-size: 22px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 50px;
+    margin-top: 10px;
+    width: 60px;
+}
+
+.buttons button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: .4s all ease-in-out;
+}
+
+.buttons button:hover {
+    color: white;
+}
+
+.buttons button i {
+    font-size: 22px;
+}
+
+.random button {
+    width: 120px;
+    height: 35px;
+    text-transform: capitalize;
+    border-radius: 12px;
+    border: none;
+    transition: .6s all ease-in-out;
+    cursor: pointer;
+}
+
+.random button:hover {
+    border: 1px solid blue;
+    background-color: orangered;
+}
